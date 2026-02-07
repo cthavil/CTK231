@@ -1,0 +1,71 @@
+
+h1 {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+
+.home h1 {
+  color: red;
+}
+
+.home p {
+  background-color: black;
+  color: white;
+}
+
+
+.home p a:link {
+  color: red;
+}
+
+.home p a:visited {
+  color: green;
+}
+
+.home p a:hover {
+  color: yellow;
+}
+
+
+.requirements h1 {
+  color: blue;
+}
+
+.requirements p {
+  background-color: black;
+  color: blue;
+}
+
+
+.info {
+  background-color: green;
+  color: black;
+}
+
+
+.ctk .courses h3 {
+  color: white;
+  background-color: red;
+}
+
+.ctk .courses p {
+  color: black;
+  background-color: grey;
+}
+
+.spanstyle {
+  color: purple;
+  background-color: yellow;
+}
+
+#pg {
+  color: white;
+  background-color: green;
+}
+
+
+
