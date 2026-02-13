@@ -1,0 +1,138 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home{
+    background-image: url(redbird.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    background-image: url(colby.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ctk{
+    background-image: url(isu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.requirements{
+    background-image: url(gpa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+h1 {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+
+.home h1 {
+  color: red;
+}
+
+.home p {
+  background-color: black;
+  color: white;
+}
+
+
+.home p a:link {
+  color: red;
+}
+
+.home p a:visited {
+  color: green;
+}
+
+.home p a:hover {
+  color: yellow;
+}
+
+
+
+.requirements p {
+  background-color: yellow;
+  color: blue;
+}
+
+
+.info {
+  background-color: green;
+  color: black;
+}
+
+
+
+
+.spanstyle {
+  color: purple;
+  background-color: yellow;
+}
+
+#pg {
+  color: white;
+  background-color: green;
+}
+
+ .textcenter{
+    text-align: center;
+ }
+
+ .justify{
+    text-align: justify;
+ }
+
+ h1, h2, h3, h4, h5, h6{
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+.imgbox{
+    
+    border: 10px solid black;
+    padding: 10px;
+    background-color: yellow;
+
+
+}
+
+.imgbox2{
+    border: 10px solid black;
+    padding: 10px;
+    background-color: yellow;
+}
+
+.imgbox3{
+    border: 10px solid black;
+    padding: 10px;
+    background-color: yellow;
+}
+
+.imgbox4{
+    border: 10px solid black;
+    padding: 10px;
+    background-color: yellow;
+}
+
+.imgbox5{
+    border: 10px solid black;
+    padding: 10px;
+    background-color: yellow;
+}
+
+
