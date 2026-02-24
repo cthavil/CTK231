@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  background-image: url("a62.png");
+  background-repeat: repeat;
+}
+
+
+#wrapper {
+  width: 1200px;
+       margin: 1em auto;
+  background-color: white;
+  border: 2px solid black;
+
+      display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto auto auto;
+}
+
+
+    header {
+  grid-column: span 12;
+  background-color: black;
+      margin: 18px;
+  padding: 18px;
+  border: 2px solid gray;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+   font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 34px;
+}
+
+
+nav {
+    grid-column: span 3;
+  padding-left: 18px;
+  padding-bottom: 18px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 14px;
+}
+
+nav a {
+  display: block;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 16px 18px;
+}
+
+/* hover state */
+nav a:hover {
+  background-color: darkred;
+}
+
+
+main {
+  grid-column: span 9;
+  padding-right: 18px;
+}
+
+h2 {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 28px;
+}
+
+#rule {
+  height: 3px;
+  background-color: black;
+  margin: 10px 0 18px 0;
+}
+
+
+#topsection {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 18px;
+  margin-bottom: 18px;
+}
+
+
+#imagebox {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+#imagebox img {
+  width: 100%;
+  display: block;
+  border: 2px solid gray;
+}
+
+
+#sideparagraphs {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+#sideparagraphs p {
+  margin: 0 0 18px 0;
+  text-align: justify;
+}
+
+
+#bottomparagraphs {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+#bottomparagraphs p {
+  margin: 0 0 20px 0;
+  text-align: justify;
+}
+
+
+#bottomparagraphs a:link,
+#bottomparagraphs a:visited {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#bottomparagraphs a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+
+footer {
+  grid-column: span 12;
+  background-color: red;
+  border-top: 2px solid black;
+  padding: 18px;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+  font-family: Verdana, Arial, sans-serif;
+  font-style: italic;
+  color: white;
+}
