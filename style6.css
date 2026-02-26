@@ -38,6 +38,7 @@ nav {
     grid-column: span 3;
   padding-left: 18px;
   padding-bottom: 18px;
+  padding-right: 18px;
 }
 
 nav ul {
