@@ -1,0 +1,147 @@
+
+body {
+    margin: 0;
+    background-color: #999;
+    font-family: Georgia, serif;
+}
+
+
+#wrapper {
+    width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 2px solid #333;
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+
+header {
+    grid-column: 1 / -1;
+    background: linear-gradient(to bottom, deepskyblue, blue);
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 3.2em;
+}
+
+header a {
+    color: #9fd3ff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: white;
+}
+
+
+nav {
+    grid-column: 1 / -1;
+    background: linear-gradient(to bottom, dodgerblue, blue);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    flex: 1;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    color: #bfe4ff;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-right: 2px solid #0d47a1;
+}
+
+nav a:hover {
+    background-color: #0d47a1;
+    color: white;
+}
+
+
+aside {
+    background-color: #cfe8f3;
+    padding: 20px;
+}
+
+aside h2 {
+    border-bottom: 3px solid #0d47a1;
+    padding-bottom: 5px;
+    color: #0d47a1;
+    margin-top: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 2.4em;
+    font-weight: normal;
+}
+
+.justify {
+    text-align: justify;
+    line-height: 1.15;
+    font-size: 1.05em;
+}
+
+
+main {
+    padding: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+
+main h2 {
+    border-bottom: 1px solid #0d47a1;
+    padding-bottom: 5px;
+    color: #0d47a1;
+    margin-top: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.mainimg {
+    width: 600px;
+    float: left;
+    margin: 10px 20px 10px 0;
+    border: 4px solid #0d47a1;
+}
+
+main p {
+    line-height: 1.35;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.05em;
+}
+
+.redlink {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.redlink:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    grid-column: 1 / -1;
+    background-color: #cc0000;
+    padding: 20px;
+}
+
+footer img {
+    height: 70px;
+}
