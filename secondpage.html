@@ -2,7 +2,6 @@
 <html>
 <head>
   <title>Audio</title>
-
   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="web.css">
@@ -12,11 +11,11 @@
 <div class="page2">
 
   <div class="header2">
-    <h1>Audio Production Info</h1>
+    <h1>Cooper's awesome webpage</h1>
   </div>
 
   <div class="topimg">
-    <a href="https://www.youtube.com/watch?v=toai0nShYaM" target="_blank" class="videobox">
+    <a href="#" class="videobox" onclick="openVideo('toai0nShYaM'); return false;">
       <img src="https://img.youtube.com/vi/toai0nShYaM/maxresdefault.jpg?v=3" class="bigimg" alt="Audio Video">
       <span class="playbtn"></span>
     </a>
@@ -51,6 +50,33 @@
   <a href="portfolio.html" class="homebtn">Home</a>
 
 </div>
+
+<div id="videoModal" class="videomodal">
+  <div class="videomodalbox">
+    <span class="closevideo" onclick="closeVideo()">&times;</span>
+    <iframe id="popupVideo" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
+
+<script>
+function openVideo(videoID) {
+  const video = document.getElementById("popupVideo");
+  video.src = "https://www.youtube.com/embed/" + videoID + "?autoplay=1&rel=0";
+  document.getElementById("videoModal").style.display = "block";
+}
+
+function closeVideo() {
+  const video = document.getElementById("popupVideo");
+  video.src = "";
+  document.getElementById("videoModal").style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target.id === "videoModal") {
+    closeVideo();
+  }
+}
+</script>
 
 </body>
 </html>
