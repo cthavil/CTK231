@@ -7,7 +7,7 @@ body {
   background-color: #e6e6e6;
 }
 
-/* ================= MAIN PAGE ================= */
+
 
 .page {
   width: 880px;
@@ -149,7 +149,7 @@ body {
   color: white;
 }
 
-/* ================= INNER PAGES ================= */
+
 
 .page2 {
   width: 820px;
@@ -348,7 +348,7 @@ body {
   color: white;
 }
 
-/* ================= VIDEO POPUP ================= */
+
 
 .videomodal {
   display: none;
