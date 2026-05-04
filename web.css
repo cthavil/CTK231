@@ -52,7 +52,7 @@ body {
 .info1 {
   width: 400px;
   height: 150px;
-  background-color: indianred;
+  background-color: rgb(178, 133, 133);
   display: inline-block;
   vertical-align: top;
   margin-left: 10px;
